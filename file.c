@@ -1,15 +1,16 @@
-#PROGRAMMING FOR PROBLEM SOLVING
-##**ASSIGNMENT**
-##*SUBMITTED BY:*
+# PROGRAMMING FOR PROBLEM SOLVING
+## **ASSIGNMENT**
+## *SUBMITTED BY:*
 
 **NAME:KARNEET KAUR**
 **ROLL NUMBER:1921054**
 **BRANCH:INFORMATION TECHNOLOGY**
  **SECTION:I.T. A2**
-##MY C PROGRAMS
+## MY C PROGRAMS
  
 **1. WRITE  A  SOURCE  CODE  TO PRINT "HELLO BUDDIES".**
 ```
+
 #include<stdio.h>
 int main()
 {
@@ -39,6 +40,7 @@ return 0;
 ```
 *OUTPUT~*
 ```
+
 Enter the value in fahrenheit:274
 
 celsius=134.44
@@ -91,6 +93,7 @@ int main()
 ```
 *OUTPUT~*
 ```
+
 Enter any one operator +, -, *, / 
 *
  Enter two numbers 
@@ -102,6 +105,7 @@ Enter any one operator +, -, *, /
 ```
 **4.  WRITE  THE  SOURCE  CODE TO ENTER THE  STUDENT'S INFORMATION**
 ```
+
 #include<stdio.h>
   int main()
   {
