@@ -383,7 +383,7 @@ factorial of 5=120
 Enter a positive integer: 6
 Factorial of 6 = 720
 ```
-**13. TO CHECK WHETHER NUMBER IS PRIME OR NOT**
+**13. WRITE A SOURCE CODE TO CHECK WHETHER NUMBER IS PRIME OR NOT**
 ```
 #include<stdio.h> 
   int main() 
@@ -418,7 +418,7 @@ Factorial of 6 = 720
 Enter the number:7
 prime
 ```
-**14. TO PRINT F USING #**
+**14. WRITE A CODE TO PRINT F USING #**
 ```
 #include<stdio.h>
  int main()
@@ -448,7 +448,7 @@ return 0;
 #
 #
 ```
-**15. TO FIND THE LARGEST AMONG THE ARRAY**
+**15. WRITE A SOURCE CODE TO FIND THE LARGEST AMONG THE ARRAY**
 ```
 `#include<stdio.h> 
   int main() 
@@ -488,7 +488,7 @@ enter 10 element of array;1
 45
 
 ```
-**16. TO SHOW THE TOTAL EXPERIENCE OF AN EMPLOYEE**
+**16. WRITE A SOURCE CODE TO SHOW THE TOTAL EXPERIENCE OF AN EMPLOYEE**
 ```
 #include<stdio.h> 
  int main() 
@@ -518,7 +518,7 @@ enter experience of 3 th employees(in years):8
 19
 
 ```
-**17. TO CHECK WHETHER  THE NUMBER IS PRIME OR NOT WITHIN THE RANGE** 
+**17. WRITE A AOURCE CODE TO CHECK WHETHER  THE NUMBER IS PRIME OR NOT WITHIN THE RANGE** 
 ```
 #include<stdio.h> 
   int main() 
@@ -575,7 +575,7 @@ enter the ending value:
 17 are  prime
 18 are not  prime:
 ```
-**18.  TO PRINT  THE TABLE OF EVEN NUMBER**
+**18.  WRITE A SOURCE CODE TO PRINT THE TABLE OF EVEN NUMBER**
 ```
 #include<stdio.h>
  int main()
@@ -612,7 +612,7 @@ enter the number=4
 4 X 10=40
 
 ```
-**19. TO REVERSE A NUMBER**
+**19. WRITE A SOURCE CODE TO REVERSE A NUMBER**
 ```
 #include <stdio.h>
     int main()
@@ -635,7 +635,7 @@ enter the number=4
 Enter an integer: 234
 Reversed Number = 432
 ```
-20. TO SHOW SUM OF TWO NUMBERS
+20.WRITE A SOURCE CODE TO PRINT SUM OF TWO NUMBERS
 ```
 include<stdio.h>
  int main()
