@@ -10,7 +10,6 @@
  
 **1. WRITE  A  SOURCE  CODE  TO PRINT "HELLO BUDDIES".**
 ```
-
 #include<stdio.h>
 int main()
 {
