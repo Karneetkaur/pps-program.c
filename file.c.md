@@ -223,7 +223,8 @@ Enter the number=8
 8 X 10=80
 ```
 **8.  WRITE  A  SOURCE  CODE  TO PRINT THE TABLE WITHIN THE RANGE**
-```#include<stdio.h> 
+```
+#include<stdio.h> 
   int main() 
 { 
   int row, col,y,k; 
@@ -260,4 +261,88 @@ Table as
   10  15  20  25  30
   12  18  24  30  36
   14  21  28  35  42
-  16  2
+  16  24  32  40  48
+  18  27  36  45  54 
+  20  30  40  50  60 
+```
+**9.WRITE A SOURCE CODE TO CHECK WHETHER NUMBER IS PRIME OR NOT.**
+```
+#include <stdio.h>
+ int main() {
+    int n, i, flag = 0;
+    printf("Enter a positive integer: ");
+    scanf("%d", &n);
+    for (i = 2; i < n / 2; ++i) {
+        // condition for non-prime
+        if (n % i == 0) {
+            flag = 1;
+            break;
+        }
+    }
+    if (n == 1) {
+        printf("1 is neither prime nor composite.");
+    }
+    else {
+        if (flag == 0)
+            printf("%d is a prime number.", n);
+        else
+            printf("%d is not a prime number.", n);
+    }
+    return 0;
+}
+```
+**OUTPUT**
+```
+Enter the positive integer:53
+53 is a prime number
+```
+**10. WRITE A SOURCE CODE TO CHECK WHETHER NUMBER IS EVEN OR ODD.**
+```
+#include <stdio.h>
+int main() {
+    int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+   
+    if(num % 2 == 0)
+        printf("%d is even.", num);
+
+    if(num==0)
+        printf("%d is zero.",num);
+
+    else
+        printf("%d is odd.", num);
+    
+    return 0;
+}
+```
+**OUTPUT**
+```
+Enter an integer: 56         
+56 is even
+
+**11.WRITE A SOURCE CODE TO FIND FACTORIAL OF A NUMBER.**
+```
+#include<stdio.h>
+  int main()                                      
+{
+   int n,a,fact=1;   
+                             
+    printf("Enter the number to find its factoria$
+    scanf("%d",&n);
+
+    for(a=1;a<=n;a++)
+
+    fact=fact*a;
+
+    printf("factorial of %d=%d\n",n,fact);
+
+ return 0;
+```
+**OUTPUT**
+```  
+Enter the number to find its factorial:
+5
+factorial of 5=120    
+```
+                                     }
