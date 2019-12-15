@@ -351,10 +351,10 @@ factorial of 5=120
 
 **12.WRITE A SOURCE CODE TO FIND FACTORIAL OF A NUMBER USING RECURSION.**
 ```
-#include <stdio.h>                                
-  int main()   
-     {    
+#include <stdio.h>                                 
         long int multiplyNumbers(int n);
+    int main()
+    {
         int n;                                            
         printf("Enter a positive integer: ");
         scanf("%d", &n);
