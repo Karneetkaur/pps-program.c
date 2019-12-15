@@ -348,14 +348,13 @@ Enter the number to find its factorial:
 5
 factorial of 5=120    
 ```
-                                     }
+
 **12.WRITE A SOURCE CODE TO FIND FACTORIAL OF A NUMBER USING RECURSION.**
 ```
-#include <stdio.h>                                long int multiplyNumbers(int n);
-    int main()
-
-    {
-
+#include <stdio.h>                                
+  int main()   
+     {    
+         long int multiplyNumbers(int n);
         int n;                                            
         printf("Enter a positive integer: ");
         scanf("%d", &n);
@@ -403,7 +402,7 @@ return 0;
 ```
  _______________
 |_______________|
-| 1 | 2 | 3 |   |                                 |___|___|___|___|
+| 1 | 2 | 3 |   |                               
 | 4 | 5 | 6 | + |
 |___|___|___|___|
 | 7 | 8 | 9 | - |
@@ -425,7 +424,7 @@ return 0;
    puts("####"); 
    puts("#");
    puts("#");
-   puts("#");                                    puts("#");                                        puts("#");                              puts("#");
+   puts("#");      
 
 return 0;
  }
@@ -450,7 +449,9 @@ return 0;
 
  int array[50],size,i,largest;
 
- printf("enter the size of the array:");           scanf("%d",&size);                                                                                  printf("enter %d element of array;",size);
+ printf("enter the size of the array:"); 
+ scanf("%d",&size);              
+ printf("enter %d element of array;",size);
 
  for(i=1;i<size;i++)
 
