@@ -320,10 +320,10 @@ int main() {
 ```
 Enter an integer: 56         
 56 is even
+```
 
 **11.WRITE A SOURCE CODE TO FIND FACTORIAL OF A NUMBER.**
 ```
-
 #include<stdio.h>
   int main()  
                                     
@@ -385,7 +385,7 @@ Factorial of 5 = 120
  int main()
                                       
  {
-                                                     puts(" _______________");
+   puts(" _______________");
    puts("|_______________|");
    puts("| 1 | 2 | 3 |   |");
    puts("|___|___|___|___|");
@@ -425,7 +425,7 @@ return 0;
    puts("####"); 
    puts("#");
    puts("#");
-   puts("#");                                    puts("#");                                        puts("#");                                        puts("#");
+   puts("#");                                    puts("#");                                        puts("#");                              puts("#");
 
 return 0;
  }
@@ -497,7 +497,7 @@ enter 5 element of array;6
 
       for(int i=1;i<=n;i++)
                                                   
- {                                                                                                           printf("enter experience of %d th employe$
+ {      printf("enter experience of %d th employe$
         scanf("%d",&exp);                         
         sum=sum+exp;
  }
@@ -644,9 +644,9 @@ Reversed Number=342
 #include<stdio.h>
  int main()
 
-{
-                                                  int a;
-  int b;                                            int c;
+{int a;
+  int b;
+  int c;
 
    printf("enter two numbers to get sum:\n");
    scanf("%d %d",&a,&b);
