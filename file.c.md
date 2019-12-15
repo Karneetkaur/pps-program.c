@@ -323,9 +323,12 @@ Enter an integer: 56
 
 **11.WRITE A SOURCE CODE TO FIND FACTORIAL OF A NUMBER.**
 ```
+
 #include<stdio.h>
-  int main()                                      
+  int main()  
+                                    
 {
+
    int n,a,fact=1;   
                              
     printf("Enter the number to find its factoria$
@@ -346,3 +349,320 @@ Enter the number to find its factorial:
 factorial of 5=120    
 ```
                                      }
+**12.WRITE A SOURCE CODE TO FIND FACTORIAL OF A NUMBER USING RECURSION.**
+```
+#include <stdio.h>                                long int multiplyNumbers(int n);
+    int main()
+
+    {
+
+        int n;                                            
+        printf("Enter a positive integer: ");
+        scanf("%d", &n);
+
+        printf("Factorial of %d = %ld", n, multip$
+        return 0;
+    }
+
+    long int multiplyNumbers(int n)
+
+    {
+        if (n >= 1)
+            return n*multiplyNumbers(n-1);
+        else
+            return 1;    
+                   
+    }
+```
+**OUTPUT**
+```
+Enter a positive integer: 5
+Factorial of 5 = 120
+```
+**13.WRITE A SOURCE CODE TO PRINT CALCULATOR**
+```
+#include<stdio.h>
+ int main()
+                                      
+ {
+                                                     puts(" _______________");
+   puts("|_______________|");
+   puts("| 1 | 2 | 3 |   |");
+   puts("|___|___|___|___|");
+   puts("| 4 | 5 | 6 | + |");
+   puts("|___|___|___|___|");
+   puts("| 7 | 8 | 9 | - |");
+   puts("|___|___|___|___|");
+   puts("|     0     | * |");
+   puts("|___________|___|");                     
+return 0;  
+ 
+ }
+```
+**OUTPUT~**
+```
+ _______________
+|_______________|
+| 1 | 2 | 3 |   |                                 |___|___|___|___|
+| 4 | 5 | 6 | + |
+|___|___|___|___|
+| 7 | 8 | 9 | - |
+|___|___|___|___|
+|     0     | * |
+|___________|___|
+
+```
+**14.WRITE A SOURCE CODE TO PRINT F USING #.**
+```
+#include<stdio.h>
+ int main()
+
+{
+
+   puts("######");
+   puts("#");
+   puts("#");
+   puts("####"); 
+   puts("#");
+   puts("#");
+   puts("#");                                    puts("#");                                        puts("#");                                        puts("#");
+
+return 0;
+ }
+```
+**OUTPUT~**
+```
+######
+#
+#
+####
+#
+#
+#           
+                         
+```
+**15.WRITE A SOURCE CODE TO FIND THE LARGEST AMOND THE ARRAY.**
+```
+#include<stdio.h>
+  int main()
+
+{
+
+ int array[50],size,i,largest;
+
+ printf("enter the size of the array:");           scanf("%d",&size);                                                                                  printf("enter %d element of array;",size);
+
+ for(i=1;i<size;i++)
+
+scanf("%d",&array[i]);
+
+ largest=array[0];
+
+ for(i=1;i<size;i++)
+
+{
+if(largest<array[i]);
+ largest=array[i];
+
+}
+
+ printf("\n largest element present in the given $
+
+ return 0;
+
+}
+```
+**OUTPUT~**
+```
+enter the size of the array:5
+enter 5 element of array;6
+76
+8
+54
+98
+
+ largest element present in the given  array is 98
+```
+**16.WRITE A SOURCE CODE TO SHOW THE TOTAL EXPERIENCE OF AN EMPLOYEE.**
+```
+#include<stdio.h>
+ int main()
+{
+
+      int n,i;                                    
+        printf("enter the number of employees:");         
+        scanf("%d",&n);
+
+      int exp,sum=0;
+
+      for(int i=1;i<=n;i++)
+                                                  
+ {                                                                                                           printf("enter experience of %d th employe$
+        scanf("%d",&exp);                         
+        sum=sum+exp;
+ }
+
+        printf("%d\n",sum);
+
+ return 0;
+
+}
+```
+**OUTPUT~**
+```
+enter the number of employees:4
+enter experience of 1 th employees(in years):5
+enter experience of 2 th employees(in years):4
+enter experience of 3 th employees(in years):9
+enter experience of 4 th employees(in years):8
+26
+```
+**17.WRITE A SOURCE CODE TO CHECK WHETHER NUMBER IS PRIME OR NOT WITHIN RANGE**
+```
+#include <stdio.h>
+ 
+void main()
+{
+    int num1, num2, i, j, flag, temp, count = 0;
+ 
+    printf("Enter the value of num1 and num2 \n");
+    scanf("%d %d", &num1, &num2);
+
+    if (num2 < 2)
+    {
+        printf("There are no primes upto %d\n", num2);
+        exit(0);
+    }
+    printf("Prime numbers are \n");
+
+    temp = num1;
+    if ( num1 % 2 == 0)
+    {
+        num1++;
+    }
+    for (i = num1; i <= num2; i = i + 2)
+{
+        flag = 0;
+        for (j = 2; j <= i / 2; j++)
+        {
+            if ((i % j) == 0)
+            {
+                flag = 1;
+                break;
+            }
+        }
+        if (flag == 0)
+        {
+            printf("%d\n", i);
+            count++;
+        }
+    }
+    printf("Number of primes between %d & %d = %d\n", temp, num2, count);
+ }
+```
+**OUTPUT~**
+
+```
+Enter the value of num1 and num2
+70 85
+Prime numbers are
+71
+73
+79
+83
+
+```
+**18.WRITE A SOURCE CODE TO PRINT TABLE OF EVEN NUMBERS**
+```
+#include<stdio.h>
+ int main()
+                                                  
+{
+
+  int i,n;
+
+  printf("enter the number=");                      
+  scanf("%d",&n);
+
+  if(n%2==0)                                      
+  for(i=1;i<=10;i++)
+
+  printf("%d X %d=%d\n",n,i,n*i);
+
+  else
+  printf("enter the number is not even");
+                                                 
+  return 0;
+}
+```
+
+**OUTPUT~**
+```
+enter the number=6
+6 X 1=6
+6 X 2=12
+6 X 3=18
+6 X 4=24                                        
+6 X 5=30
+6 X 6=36
+6 X 7=42
+6 X 8=48
+6 X 9=54
+6 X 10=60
+```
+**19.WRITE A SOURCE CODE TO FIND REVERSE OF A NUMBER**
+```
+#include <stdio.h>
+    int main()
+
+    {
+        int n, reversedNumber = 0, remainder;
+
+        printf("Enter an integer: ");
+        scanf("%d", &n);
+
+        while(n != 0)
+
+        {  
+                                                  
+         remainder = n%10;
+         reversedNumber = reversedNumber*10 +Reminder
+         n /= 10;
+        }
+        printf("Reversed Number = %d", reversedNumber
+        return 0;
+    }
+
+```
+**OUTPUT~**
+```
+Enter an integer:243
+Reversed Number=342
+```
+**20.WRITE A SOURCE CODE TO FIND SUM OF TWO NUMBERS**
+```
+#include<stdio.h>
+ int main()
+
+{
+                                                  int a;
+  int b;                                            int c;
+
+   printf("enter two numbers to get sum:\n");
+   scanf("%d %d",&a,&b);
+
+   printf("\n the result is %d+%d=%d\n",a,b,c=a+b);
+
+return 0;
+
+}
+```
+**OUTPUT~**
+```
+enter two numbers to get sum:
+5
+7
+
+ the result is 5+7=12
+```
+## THANK YOU##
