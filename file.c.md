@@ -354,7 +354,7 @@ factorial of 5=120
 #include <stdio.h>                                
   int main()   
      {    
-         long int multiplyNumbers(int n);
+        long int multiplyNumbers(int n);
         int n;                                            
         printf("Enter a positive integer: ");
         scanf("%d", &n);
